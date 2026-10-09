@@ -1,0 +1,15 @@
+State two advantages of using version control when writing software. Explain each point from:
+• the perspective of an individual programmer;
+    - Every commit can be reverted back to, allowing you to experiment with your code without the fear of messing up your whole project
+    - Commit messages can be a good personal log to see your progress and see what changes were made along the way.
+• the perspective of working in a team developing software.
+    - Allows multiple users to make changes simultaenously. 
+    - Keeps a record of when changes were made, who made them, and what they did. 
+    - Bugs can be traced to the commit that caused it. 
+    - Keeps people accountable as commits are traced. 
+    - Allows fast rollback to a stable version if something breaks. 
+
+State one disadvantage of Git.
+- It has a very steep learning curve for a beginner. 
+- Mistakes can feel scary, especially when working in a team environment. 
+- Therefore, for a new programmer, they might spend a lot of time learning how to use the tools rather than writing code.
