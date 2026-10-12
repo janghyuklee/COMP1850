@@ -3,7 +3,7 @@
 i = 0
 
 while i <= 20:
-	if i % 4 == 0 and i != 0:
+	if i % 4 == 0 and i !=0:
 		print(f"{i} is a multiple of 4")
 	else:
 		print(i)
