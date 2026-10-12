@@ -2,19 +2,19 @@
 from util import read_numbers
 import sys
 
-list = read_numbers()
+number = read_numbers()
 
-if not list:
+if not number:
     sys.exit("Error: no numbers provided ")
 
-list.sort()
+number.sort()
 
-print(list)
+print(number)
 
-minimum = list[0]
-maximum = list[-1]
-mean = sum(list) / len(list)
-median = list[len(list) // 2] if len(list) % 2 != 0 else (list[len(list) // 2 - 1] + list[len(list) // 2]) / 2
+minimum = number[0]
+maximum = number[-1]
+mean = sum(number) / len(number)
+median = number[len(number) // 2] if len(number) % 2 != 0 else (number[len(number) // 2 - 1] + number[len(number) // 2]) / 2
 
 print(f"Minimum: {minimum}")
 print(f"Maximum: {maximum}")
